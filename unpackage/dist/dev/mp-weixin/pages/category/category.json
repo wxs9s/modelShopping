@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "目录",
+  "usingComponents": {
+    "cata-comp": "/myComponents/catagory/cataComponent"
+  }
+}

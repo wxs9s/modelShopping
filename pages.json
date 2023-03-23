@@ -1,0 +1,109 @@
+{
+	"pages": [
+		{
+			"path": "pages/homes/home",
+			"style": {
+				"navigationBarTitleText": "任性购"
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "目录"
+			}
+		},
+		{
+			"path": "pages/movie/movie",
+			"style": {
+				"navigationBarTitleText": "电影"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/homes/cardDetail",
+			"style": {
+				"navigationBarTitleText": "优惠券详情"
+			}
+		},
+		{
+			"path": "pages/goods/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/goods/goodsPay",
+			"style": {
+				"navigationBarTitleText": "商品下单"
+			}
+		},
+		{
+			"path": "pages/orders/goodsOrder",
+			"style": {
+				"navigationBarTitleText": "商品订单"
+			}
+		},
+		{
+			"path": "pages/orders/ordersDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "任性购",
+		"navigationBarBackgroundColor": "#FFFDEF",
+		"backgroundColor": "#FFFDEF",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+	    "color": "#bfbfbf",
+	    "selectedColor": "#ff7575",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/homes/home",
+	        "iconPath": "static/images/fangzi.png",
+	        "selectedIconPath": "static/images/fangzi-active.png",
+	        "text": "首页"
+	    }, 
+		{
+	        "pagePath": "pages/category/category",
+	        "iconPath": "static/images/fenlei.png",
+	        "selectedIconPath": "static/images/fenlei-active.png",
+	        "text": "分类"
+	    },
+		{
+		    "pagePath": "pages/movie/movie",
+		    "iconPath": "static/images/qian.png",
+		    "selectedIconPath": "static/images/qian-active.png",
+		    "text": "电影"
+		},
+		{
+		    "pagePath": "pages/cart/cart",
+		    "iconPath": "./static/images/gouwuche.png",
+		    "selectedIconPath": "static/images/gouwuche-active.png",
+		    "text": "充值"
+		},
+		{
+		    "pagePath": "pages/user/user",
+		    "iconPath": "./static/images/renwu.png",
+		    "selectedIconPath": "static/images/renwu-active.png",
+		    "text": "我的"
+		}]
+	}
+}

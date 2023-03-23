@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商品下单",
+  "usingComponents": {
+    "navigation-bar": "/myComponents/navBar/navigationBar"
+  }
+}

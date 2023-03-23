@@ -1,0 +1,220 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 引入iconfont图标样式 */
+@font-face {
+  font-family: "iconfont"; /* Project id 2262577 */
+  src: url('//at.alicdn.com/t/font_2262577_eyjn2x1b3ic.woff2?t=1624778224313') format('woff2'),
+       url('//at.alicdn.com/t/font_2262577_eyjn2x1b3ic.woff?t=1624778224313') format('woff'),
+       url('//at.alicdn.com/t/font_2262577_eyjn2x1b3ic.ttf?t=1624778224313') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-jiahao:before {
+  content: "\e609";
+}
+.icon-minus-circle:before {
+  content: "\eb41";
+}
+.icon-youjiantou:before {
+  content: "\e62b";
+}
+.icon-tuiguang:before {
+  content: "\e605";
+}
+.icon-bangzhuzhongxin:before {
+  content: "\e606";
+}
+.icon-xiaoxi:before {
+  content: "\e6f5";
+}
+.icon-xiaoxi1:before {
+  content: "\e62c";
+}
+.icon-daijinquan:before {
+  content: "\e7e3";
+}
+.icon-daizhifu:before {
+  content: "\e709";
+}
+.icon-shouhou:before {
+  content: "\e67b";
+}
+.icon-yizhifu:before {
+  content: "\e641";
+}
+.icon-yiwancheng:before {
+  content: "\e64d";
+}
+.icon-rising:before {
+  content: "\e703";
+}
+.icon-1:before {
+  content: "\e635";
+}
+.icon-sousuo:before {
+  content: "\e602";
+}
+.flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.flex1 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.flex-between {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.flex-around {
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.flex-end {
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+.flex-wrap {
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.m10 {
+	margin: 10rpx;
+}
+.m20 {
+	margin: 20rpx;
+}
+.mt10 {
+	margin-top: 10rpx;
+}
+.mt20 {
+	margin-top: 20rpx;
+}
+.ml20 {
+	margin-left: 20rpx;
+}
+.ml30 {
+	margin-left: 30rpx;
+}
+.ml50 {
+	margin-left: 50rpx;
+}
+.mr10 {
+	margin-right: 10rpx;
+}
+.mr20 {
+	margin-right: 20rpx;
+}
+.mr30 {
+	margin-right: 30rpx;
+}
+.pl20 {
+	padding-left: 20rpx;
+}
+.pl25 {
+	padding-left: 25rpx;
+}
+.pl30 {
+	padding-left: 30rpx;
+}
+.bar-sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 101;
+}
+.logo {
+	width: 100%;
+	height: 100%;
+	 background-image: -webkit-gradient(linear, left top, right top, from(red) , to(yellow));
+	 background-image: -webkit-linear-gradient(left, red , yellow);
+	 background-image: linear-gradient(to right, red , yellow);
+	/* background-color: #DD524D; */ 
+	/* fon/* t-family: STCaiyun; */
+	/* color: transparent; */
+	    /* -webkit-text-stroke: 1px red; */
+	    /* letter-spacing: 0.04em; */
+}
+.logo image {
+	width: 100%;
+	height: 100%;
+}
+.logo-family {
+	/* align-items: center;
+	font-size: 42rpx;
+	color: #FFFFFF; */
+	font-size: 52rpx;
+	/* text-align: center; */
+	padding-left: 20rpx;
+	color: gold;
+	letter-spacing: 0;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+
+    /* font-family:cursive;text-shadow:6px 2px 2px #333;color:deeppink */
+}
+.girl {
+    /* width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px; */
+    background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent;/* 将字体设置成透明色 */
+    -webkit-background-clip: text;/* 裁剪背景图，使文字作为裁剪区域向外裁剪 */
+    -webkit-background-size: 200% 100%; 
+    -webkit-animation: masked-animation 4s linear infinite;
+    font-size: 35px;
+}
+@-webkit-keyframes masked-animation {
+0% {
+        background-position: 0  0;
+}
+100% {
+        background-position: -100%  0;
+}
+}
+@keyframes masked-animation {
+0% {
+        background-position: 0  0;
+}
+100% {
+        background-position: -100%  0;
+}
+}
+/* 解决头条小程序组件内引入字体不生效的问题 */
+
+
+
+
+
+
+
+

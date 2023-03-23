@@ -1,0 +1,1 @@
+<cart-comp vue-id="1775f8c0-1" titles="{{cataTitles}}" dataList="{{contentList}}" data-event-opts="{{[['^changeList',[['changeList']]]]}}" bind:changeList="__e" bind:__l="__l"></cart-comp>

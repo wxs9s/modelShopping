@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "任性购",
+  "usingComponents": {
+    "cata_-title": "/myComponents/catagory/cataTitle",
+    "navigation-bar": "/myComponents/navBar/navigationBar"
+  }
+}

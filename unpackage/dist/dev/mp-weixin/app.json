@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/homes/home",
+    "pages/category/category",
+    "pages/movie/movie",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/homes/cardDetail",
+    "pages/goods/goodsDetail",
+    "pages/goods/goodsPay",
+    "pages/orders/goodsOrder",
+    "pages/orders/ordersDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "任性购",
+    "navigationBarBackgroundColor": "#FFFDEF",
+    "backgroundColor": "#FFFDEF",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#ff7575",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/homes/home",
+        "iconPath": "static/images/fangzi.png",
+        "selectedIconPath": "static/images/fangzi-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/images/fenlei.png",
+        "selectedIconPath": "static/images/fenlei-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "iconPath": "static/images/qian.png",
+        "selectedIconPath": "static/images/qian-active.png",
+        "text": "电影"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "./static/images/gouwuche.png",
+        "selectedIconPath": "static/images/gouwuche-active.png",
+        "text": "充值"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "./static/images/renwu.png",
+        "selectedIconPath": "static/images/renwu-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

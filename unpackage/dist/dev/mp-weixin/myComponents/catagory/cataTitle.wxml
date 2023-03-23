@@ -1,0 +1,1 @@
+<view class="catagory data-v-b2be52b2"><view class="cata_title data-v-b2be52b2"><icon class="iconfont icon-sousuo data-v-b2be52b2"></icon><text class="data-v-b2be52b2">{{name}}</text></view><view style="color:red;" class="data-v-b2be52b2">...</view></view>

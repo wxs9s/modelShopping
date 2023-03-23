@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.swiper-item {
+  width: 100%;
+}
+.swiper-item image {
+  width: 100%;
+}
+.nav {
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.nav-toger {
+  width: 187.5rpx;
+  margin: 20rpx 0;
+}
+.nav-item {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0 auto;
+}
+.nav-item image {
+  width: 100%;
+  height: 100%;
+}
+.nav-text {
+  text-align: center;
+}
+.search-bg {
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(yellow));
+  background-image: -webkit-linear-gradient(left, red, yellow);
+  background-image: linear-gradient(to right, red, yellow);
+  padding: 20rpx;
+}
+.search-bg .searchInput {
+  border-radius: 50rpx;
+  margin: 0 20rpx;
+  padding: 10rpx;
+  background-color: #F8F8F8;
+  text-align: center;
+}
+.pay {
+  width: 43%;
+  margin: 10rpx;
+  padding: 10rpx;
+  background-color: red;
+  border: 1rpx solid #D3D3D3;
+  border-radius: 10rpx;
+  -webkit-box-shadow: 5rpx 5rpx 8rpx #D3D3D3;
+          box-shadow: 5rpx 5rpx 8rpx #D3D3D3;
+}
+.pay .pay-item {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10rpx;
+}
+.pay .pay-item:nth-child(1) {
+  font-size: 32rpx;
+}
+.pay .pay-item:nth-child(2) {
+  font-size: 24rpx;
+}
+.pay .pay-item:nth-child(3) {
+  font-size: 28rpx;
+}
+.activity {
+  width: 44%;
+}
+.activity1 {
+  height: 200rpx;
+}
+.activity1 image {
+  width: 100%;
+  height: 100%;
+}
+.content-item .paper:nth-child(1) {
+  color: red;
+  font-size: 30rpx;
+}
+.content-item .paper:nth-child(2) {
+  color: gray;
+  font-size: 28rpx;
+  text-decoration: line-through;
+}
+.like-button {
+  padding: 10rpx;
+  height: 50rpx;
+  background-color: #da4f10;
+  border: 1rpx solid D3D3D3;
+  border-radius: 5rpx;
+  color: white;
+  text-align: center;
+  line-height: 50rpx;
+}
+.cart-box {
+  width: 92%;
+  margin: 20rpx;
+  padding: 10rpx;
+  border: 1px solid #E5E5E5;
+  -webkit-box-shadow: 10rpx 10rpx 10rpx #E5E5E5;
+          box-shadow: 10rpx 10rpx 10rpx #E5E5E5;
+}
+.cart-box image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.cart-content .title:nth-child(1) {
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.cart-content .title:nth-child(2), .cart-content .title:nth-child(3) {
+  color: gray;
+  font-size: 26rpx;
+}
+.cart-content .title:nth-child(4) {
+  color: #DF5000;
+  font-size: 28rpx;
+}
+.cart-right {
+  margin: auto 10rpx;
+}
+.cart-right .title:nth-child(1) {
+  color: red;
+}
+.cart-right .title:nth-child(2) {
+  font-size: 26rpx;
+  color: gray;
+  text-decoration: line-through;
+}
+

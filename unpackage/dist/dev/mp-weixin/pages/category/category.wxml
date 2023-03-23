@@ -1,0 +1,1 @@
+<cata-comp vue-id="9d275500-1" titles="{{categoryObj.children}}" dataList="{{contentList}}" loadMore="{{loadMore}}" data-event-opts="{{[['^changeList',[['getGoodsList']]],['^toDetail',[['toDetail']]]]}}" bind:changeList="__e" bind:toDetail="__e" bind:__l="__l"></cata-comp>

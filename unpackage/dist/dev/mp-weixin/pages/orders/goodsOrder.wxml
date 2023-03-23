@@ -1,0 +1,1 @@
+<order vue-id="0c25c54d-1" titles="{{titles}}" goodsList="{{goodsList}}" data-event-opts="{{[['^changeList',[['getGoodsList']]],['^getOrderDetail',[['getOrderDetail']]]]}}" bind:changeList="__e" bind:getOrderDetail="__e" bind:__l="__l"></order>
