@@ -11,9 +11,9 @@
 /* 9 */,
 /* 10 */,
 /* 11 */
-/*!*************************************************************************!*\
-  !*** E:/Project/agent/testDemo/main.js?{"page":"pages%2Fhomes%2Fhome"} ***!
-  \*************************************************************************/
+/*!************************************************************************!*\
+  !*** E:/Project/modelShopping/main.js?{"page":"pages%2Fhomes%2Fhome"} ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26,9 +26,9 @@ createPage(_home.default);
 
 /***/ }),
 /* 12 */
-/*!******************************************************!*\
-  !*** E:/Project/agent/testDemo/pages/homes/home.vue ***!
-  \******************************************************/
+/*!*****************************************************!*\
+  !*** E:/Project/modelShopping/pages/homes/home.vue ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -66,9 +66,9 @@ component.options.__file = "pages/homes/home.vue"
 
 /***/ }),
 /* 13 */
-/*!*************************************************************************************!*\
-  !*** E:/Project/agent/testDemo/pages/homes/home.vue?vue&type=template&id=bdc8fa5a& ***!
-  \*************************************************************************************/
+/*!************************************************************************************!*\
+  !*** E:/Project/modelShopping/pages/homes/home.vue?vue&type=template&id=bdc8fa5a& ***!
+  \************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -87,9 +87,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 14 */
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/Project/agent/testDemo/pages/homes/home.vue?vue&type=template&id=bdc8fa5a& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/Project/modelShopping/pages/homes/home.vue?vue&type=template&id=bdc8fa5a& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -113,9 +113,9 @@ render._withStripped = true
 
 /***/ }),
 /* 15 */
-/*!*******************************************************************************!*\
-  !*** E:/Project/agent/testDemo/pages/homes/home.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
+/*!******************************************************************************!*\
+  !*** E:/Project/modelShopping/pages/homes/home.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -128,14 +128,44 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 16 */
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/Project/agent/testDemo/pages/homes/home.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/Project/modelShopping/pages/homes/home.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var navigationBar = function navigationBar() {__webpack_require__.e(/*! require.ensure | myComponents/navBar/navigationBar */ "myComponents/navBar/navigationBar").then((function () {return resolve(__webpack_require__(/*! ../../myComponents/navBar/navigationBar.vue */ 87));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Cata_Title = function Cata_Title() {__webpack_require__.e(/*! require.ensure | myComponents/catagory/cataTitle */ "myComponents/catagory/cataTitle").then((function () {return resolve(__webpack_require__(/*! ../../myComponents/catagory/cataTitle.vue */ 94));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -244,112 +274,138 @@ __webpack_require__.r(__webpack_exports__);
       autoplay: true,
       interval: 2000,
       duration: 500,
-      menuList: [],
+      // menuList: [],
       payColor: ['#da1045', '#da4f10', '#10da27', '#109cda'],
-      categoryList: [],
-      movieGoodsList: [],
-      hotGoodsList: []
-      // catagoryList: [
-      // 	[
-      // 		{img: '../../static/images/home/meishi.png', name: '美食券'},
-      // 		{img: '../../static/images/home/yinliao.png', name: '饮品券'},
-      // 		{img: '../../static/images/home/gouwu.png', name: '购物券'},
-      // 		{img: '../../static/images/home/shipin.png', name: '视频券'},
-      // 	],
-      // 	[
-      // 		{img: '../../static/images/home/dianying.png', name: '观影券'},
-      // 		{img: '../../static/images/home/jiaotongchuhang.png', name: '出行券'},
-      // 		{img: '../../static/images/home/ziyuan.png', name: '洗车券'},
-      // 		{img: '../../static/images/home/shoujichongzhi.png', name: '我的订单'},
-      // 	],
-      // ],
-      //menuList: ['券类','电影购票','热门充值','热门活动','热门礼券'],
-      // payList: [
-      // 	{
-      // 		'name': '美食饮品',
-      // 		'catagory': '盒马先生、肯德基、麦当劳',
-      // 		'description': '超低价充值'
-      // 	},
-      // 	{
-      // 		'name': '商超购物',
-      // 		'catagory': '沃尔玛、百果园、购物',
-      // 		'description': '超低价充值'
-      // 	},
-      // 	{
-      // 		'name': '生活出行',
-      // 		'catagory': '美团、滴滴、高德',
-      // 		'description': '超低价充值'
-      // 	},
-      // 	{
-      // 		'name': '视频电影',
-      // 		'catagory': '腾讯、爱奇艺、芒果TV',
-      // 		'description': '超低价充值'
-      // 	}
-      // ],
-      // hotActivity: [
-      // 	{
-      // 		'name': '肯德基50元代金券',
-      // 		'newPaper': 0.01,
-      // 		'oldPaper': 38.00,
-      // 		'image': '../../static/images/kendeji.jpg'
-      // 	},
-      // 	{
-      // 		'name': '麦当劳100元代金券',
-      // 		'newPaper': 0.01,
-      // 		'oldPaper': 88.00,
-      // 		'image': '../../static/images/maidanglao.jpeg'
-      // 	}
-      // ],
-      // cartList: [
-      // 	{
-      // 		'id': 1,
-      // 		'name': '肯德基50元代金券',
-      // 		'desc': '实体店消费抵扣',
-      // 		'newPaper': 0.01,
-      // 		'oldPaper': 38.00,
-      // 		'image': '../../static/images/kendeji.jpg',
-      // 		'hadSale': 230,
-      // 		'onSale': 400,
-      // 		'promise': '品质保证，售后无忧'
-      // 	},
-      // 	{
-      // 		'id': 2,
-      // 		'name': '肯德基50元代金券',
-      // 		'desc': '实体店消费抵扣',
-      // 		'newPaper': 0.01,
-      // 		'oldPaper': 38.00,
-      // 		'image': '../../static/images/maidanglao.jpeg',
-      // 		'hadSale': 230,
-      // 		'onSale': 400,
-      // 		'promise': '品质保证，售后无忧'
-      // 	},
-      // 	{
-      // 		'id': 3,
-      // 		'name': '肯德基50元代金券',
-      // 		'desc': '实体店消费抵扣',
-      // 		'newPaper': 0.01,
-      // 		'oldPaper': 38.00,
-      // 		'image': '../../static/images/kendeji.jpg',
-      // 		'hadSale': 230,
-      // 		'onSale': 400,
-      // 		'promise': '品质保证，售后无忧'
-      // 	},
-      // 	{
-      // 		'id': 4,
-      // 		'name': '肯德基50元代金券',
-      // 		'desc': '实体店消费抵扣',
-      // 		'newPaper': 0.01,
-      // 		'oldPaper': 38.00,
-      // 		'image': '../../static/images/maidanglao.jpeg',
-      // 		'hadSale': 230,
-      // 		'onSale': 400,
-      // 		'promise': '品质保证，售后无忧'
-      // 	}
-      // ],
-    };
+      // categoryList: [],
+      // movieGoodsList: [],
+      // hotGoodsList: [],
+      goodsList: [
+      {
+        title: '黑色平面口罩',
+        img: '../../static/images/kendeji.jpg',
+        type: '增拍',
+        signCount: 99 },
+
+      {
+        title: '黑色平面口罩',
+        img: '../../static/images/kendeji.jpg',
+        type: '增拍',
+        signCount: 99 },
+
+      {
+        title: '黑色平面口罩',
+        img: '../../static/images/kendeji.jpg',
+        type: '增拍',
+        signCount: 99 },
+
+      {
+        title: '黑色平面口罩',
+        img: '../../static/images/kendeji.jpg',
+        type: '增拍',
+        signCount: 99 }],
+
+
+      categoryList: [
+      [
+      { img: '../../static/images/home/meishi.png', name: '美食券' },
+      { img: '../../static/images/home/yinliao.png', name: '饮品券' },
+      { img: '../../static/images/home/gouwu.png', name: '购物券' },
+      { img: '../../static/images/home/shipin.png', name: '视频券' }],
+
+      [
+      { img: '../../static/images/home/dianying.png', name: '观影券' },
+      { img: '../../static/images/home/jiaotongchuhang.png', name: '出行券' },
+      { img: '../../static/images/home/ziyuan.png', name: '洗车券' },
+      { img: '../../static/images/home/shoujichongzhi.png', name: '我的订单' }]],
+
+
+      menuList: ['券类', '电影购票', '热门充值', '热门活动', '热门礼券'],
+      payList: [
+      {
+        'name': '美食饮品',
+        'catagory': '盒马先生、肯德基、麦当劳',
+        'description': '超低价充值' },
+
+      {
+        'name': '商超购物',
+        'catagory': '沃尔玛、百果园、购物',
+        'description': '超低价充值' },
+
+      {
+        'name': '生活出行',
+        'catagory': '美团、滴滴、高德',
+        'description': '超低价充值' },
+
+      {
+        'name': '视频电影',
+        'catagory': '腾讯、爱奇艺、芒果TV',
+        'description': '超低价充值' }],
+
+
+      hotGoodsList: [
+      {
+        'name': '肯德基50元代金券',
+        'newPaper': 0.01,
+        'oldPaper': 38.00,
+        'image': '../../static/images/kendeji.jpg' },
+
+      {
+        'name': '麦当劳100元代金券',
+        'newPaper': 0.01,
+        'oldPaper': 88.00,
+        'image': '../../static/images/maidanglao.jpeg' }],
+
+
+      cartList: [
+      {
+        'id': 1,
+        'name': '肯德基50元代金券',
+        'desc': '实体店消费抵扣',
+        'newPaper': 0.01,
+        'oldPaper': 38.00,
+        'image': '../../static/images/kendeji.jpg',
+        'hadSale': 230,
+        'onSale': 400,
+        'promise': '品质保证，售后无忧' },
+
+      {
+        'id': 2,
+        'name': '肯德基50元代金券',
+        'desc': '实体店消费抵扣',
+        'newPaper': 0.01,
+        'oldPaper': 38.00,
+        'image': '../../static/images/maidanglao.jpeg',
+        'hadSale': 230,
+        'onSale': 400,
+        'promise': '品质保证，售后无忧' },
+
+      {
+        'id': 3,
+        'name': '肯德基50元代金券',
+        'desc': '实体店消费抵扣',
+        'newPaper': 0.01,
+        'oldPaper': 38.00,
+        'image': '../../static/images/kendeji.jpg',
+        'hadSale': 230,
+        'onSale': 400,
+        'promise': '品质保证，售后无忧' },
+
+      {
+        'id': 4,
+        'name': '肯德基50元代金券',
+        'desc': '实体店消费抵扣',
+        'newPaper': 0.01,
+        'oldPaper': 38.00,
+        'image': '../../static/images/maidanglao.jpeg',
+        'hadSale': 230,
+        'onSale': 400,
+        'promise': '品质保证，售后无忧' }] };
+
+
+
   },
   onLoad: function onLoad() {
-    this.init();
+    // this.init()
   },
   methods: {
     init: function init() {var _this = this;
@@ -423,9 +479,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 17 */
-/*!****************************************************************************************!*\
-  !*** E:/Project/agent/testDemo/pages/homes/home.vue?vue&type=style&index=0&lang=scss& ***!
-  \****************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** E:/Project/modelShopping/pages/homes/home.vue?vue&type=style&index=0&lang=scss& ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -438,9 +494,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 18 */
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/Project/agent/testDemo/pages/homes/home.vue?vue&type=style&index=0&lang=scss& ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/Project/modelShopping/pages/homes/home.vue?vue&type=style&index=0&lang=scss& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

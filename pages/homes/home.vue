@@ -1,18 +1,64 @@
 <template>
 	<view>
-		<view class="bar-sticky">
+		<!-- <view class="bar-sticky">
 			　　<navigationBar custom="true"> 
 					<view class="logo ">
-						<view class="logo-family">胜券在握</view>
-						<!-- <image src="../../static/images/logo.jpeg" mode=""></image> -->
+						<view class="logo-family"></view>
+						<image src="../../static/images/logo.jpeg" mode=""></image>
 					</view>　　　
 				　　</navigationBar>
+		</view> -->
+		<view class="flex flex-around">
+			<view class="">
+				<view>新人帮助</view>
+				<view>快速了解赚钱方式</view>
+				<view>去看看</view>
+			</view>
+			<view class="">
+				<view class="">
+					<view>邀请赚钱</view>
+					<view>邀请好友使用有提成</view>
+				</view>
+				<view class="">
+					<view>麻豆攻略</view>
+					<view>玩转平台攻略</view>
+				</view>
+			</view>
 		</view>
-		<!-- 搜索框 -->
-		<view class="search-bg">
-			<view class="searchInput">
-				<input class="uni-input" placeholder-class="iconfont icon-sousuo" placeholder-style="color: #C0C0C0;font-size: 30rpx;"
-				 type="text" placeholder="搜索优惠券" />
+		<!-- 通告广场 -->
+		<view class="flex flex-around">
+			<view>通告广场</view>
+			<view>查看更多 ></view>
+		</view>
+		<view class="flex flex1 flex-wrap flex-between" >
+			<view class="flex3" v-for="(good,j) of goodsList" :key="j">
+				<image style="width: 200rpx;height: 200rpx;" :src="good.img"></image>
+				<view>{{good.title}}</view>
+				<view>{{good.type}}</view>
+				<view class="flex flex-around">
+					<view>已报名{{good.signCount}}</view>
+					<view>刚刚</view>
+				</view>
+			</view>
+		</view>
+		<!-- 优质网拍 -->
+		<view class="flex flex-center">
+			<view>优质网拍</view>
+			<view>种草</view>
+		</view>
+		<view class="flex flex-wrap flex-around" >
+			<view style="width: 45%;" v-for="(good,j) of goodsList" :key="j">
+				<image class="goodPictureImg" :src="good.img">
+					<view class="smallPic">
+						aaa
+					</view>
+				</image>
+				<view>{{good.title}}</view>
+				<view>{{good.type}}</view>
+				<view class="flex flex-around">
+					<view>已报名{{good.signCount}}</view>
+					<view>刚刚</view>
+				</view>
 			</view>
 		</view>
 		
@@ -21,39 +67,23 @@
 			<Cata_Title v-if="menuList[index] !== '券类'" :name="item.keywords" :title="item.keywords" />
 
 			<!-- 分类 -->
-			<view class="nav mt10">
+			<!-- <view class="nav mt10">
 				<view v-if="menuList[index] == '券类'" class="nav-toger" v-for="(catagory,i) in item.children" :key="i">
 					<view class="nav-item">
 						<image :src="catagory.picUrl" mode=""></image>
 					</view>
 					<view class="nav-text"><text style="text-align: center;">{{catagory.name}}</text></view>
 				</view>
-			</view>
-			<!-- 广告栏 -->
-			<!-- 电影购票 -->
-			<view v-if="menuList[index] == '电影购票'" class="swiper m20">
-				<swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" circular>
-					<swiper-item v-for="(good,j) of movieGoodsList" :key="j">
-						<view class="swiper-item">
-							<image :src="good.picUrl"></image>
-						</view>
-					</swiper-item>
-					<!-- <swiper-item>
-							<view class="swiper-item">
-								<image src="../../static/images/strawberry.jpeg"></image>
-							</view>
-						</swiper-item> -->
-				</swiper>
-			</view>
+			</view> -->
 			<!-- 热门充值 -->
-			<view v-if="menuList[index] == '热门充值'" class="flex flex-wrap flex-around mt10">
+			<!-- <view v-if="menuList[index] == '热门充值'" class="flex flex-wrap flex-around mt10">
 				<view class="pay" v-for="(item,k) in item.children" :style="{'backgroundColor': payColor[k]}">
 					<view class="pay-item">{{item.name}}</view>
 					<view class="pay-item">{{item.desc}}</view>
 				</view>
-			</view>
+			</view> -->
 			<!-- 热门活动 -->
-			<view v-if="menuList[index] == '热门活动'" class="flex flex-around mt10">
+			<view  class="flex flex-around mt10">
 				<view class="activity" v-for="(hotgood,l) of hotGoodsList" :key="l">
 					<view class="activity1">
 						<image :src="hotgood.picUrl"></image>
@@ -107,112 +137,138 @@
 				autoplay: true,
 				interval: 2000,
 				duration: 500,
-				menuList: [],
+				// menuList: [],
 				payColor: ['#da1045', '#da4f10', '#10da27', '#109cda'],
-				categoryList: [],
-				movieGoodsList: [],
-				hotGoodsList: []
-				// catagoryList: [
-				// 	[
-				// 		{img: '../../static/images/home/meishi.png', name: '美食券'},
-				// 		{img: '../../static/images/home/yinliao.png', name: '饮品券'},
-				// 		{img: '../../static/images/home/gouwu.png', name: '购物券'},
-				// 		{img: '../../static/images/home/shipin.png', name: '视频券'},
-				// 	],
-				// 	[
-				// 		{img: '../../static/images/home/dianying.png', name: '观影券'},
-				// 		{img: '../../static/images/home/jiaotongchuhang.png', name: '出行券'},
-				// 		{img: '../../static/images/home/ziyuan.png', name: '洗车券'},
-				// 		{img: '../../static/images/home/shoujichongzhi.png', name: '我的订单'},
-				// 	],
-				// ],
-				//menuList: ['券类','电影购票','热门充值','热门活动','热门礼券'],
-				// payList: [
-				// 	{
-				// 		'name': '美食饮品',
-				// 		'catagory': '盒马先生、肯德基、麦当劳',
-				// 		'description': '超低价充值'
-				// 	},
-				// 	{
-				// 		'name': '商超购物',
-				// 		'catagory': '沃尔玛、百果园、购物',
-				// 		'description': '超低价充值'
-				// 	},
-				// 	{
-				// 		'name': '生活出行',
-				// 		'catagory': '美团、滴滴、高德',
-				// 		'description': '超低价充值'
-				// 	},
-				// 	{
-				// 		'name': '视频电影',
-				// 		'catagory': '腾讯、爱奇艺、芒果TV',
-				// 		'description': '超低价充值'
-				// 	}
-				// ],
-				// hotActivity: [
-				// 	{
-				// 		'name': '肯德基50元代金券',
-				// 		'newPaper': 0.01,
-				// 		'oldPaper': 38.00,
-				// 		'image': '../../static/images/kendeji.jpg'
-				// 	},
-				// 	{
-				// 		'name': '麦当劳100元代金券',
-				// 		'newPaper': 0.01,
-				// 		'oldPaper': 88.00,
-				// 		'image': '../../static/images/maidanglao.jpeg'
-				// 	}
-				// ],
-				// cartList: [
-				// 	{
-				// 		'id': 1,
-				// 		'name': '肯德基50元代金券',
-				// 		'desc': '实体店消费抵扣',
-				// 		'newPaper': 0.01,
-				// 		'oldPaper': 38.00,
-				// 		'image': '../../static/images/kendeji.jpg',
-				// 		'hadSale': 230,
-				// 		'onSale': 400,
-				// 		'promise': '品质保证，售后无忧'
-				// 	},
-				// 	{
-				// 		'id': 2,
-				// 		'name': '肯德基50元代金券',
-				// 		'desc': '实体店消费抵扣',
-				// 		'newPaper': 0.01,
-				// 		'oldPaper': 38.00,
-				// 		'image': '../../static/images/maidanglao.jpeg',
-				// 		'hadSale': 230,
-				// 		'onSale': 400,
-				// 		'promise': '品质保证，售后无忧'
-				// 	},
-				// 	{
-				// 		'id': 3,
-				// 		'name': '肯德基50元代金券',
-				// 		'desc': '实体店消费抵扣',
-				// 		'newPaper': 0.01,
-				// 		'oldPaper': 38.00,
-				// 		'image': '../../static/images/kendeji.jpg',
-				// 		'hadSale': 230,
-				// 		'onSale': 400,
-				// 		'promise': '品质保证，售后无忧'
-				// 	},
-				// 	{
-				// 		'id': 4,
-				// 		'name': '肯德基50元代金券',
-				// 		'desc': '实体店消费抵扣',
-				// 		'newPaper': 0.01,
-				// 		'oldPaper': 38.00,
-				// 		'image': '../../static/images/maidanglao.jpeg',
-				// 		'hadSale': 230,
-				// 		'onSale': 400,
-				// 		'promise': '品质保证，售后无忧'
-				// 	}
-				// ],
+				// categoryList: [],
+				// movieGoodsList: [],
+				// hotGoodsList: [],
+				goodsList: [
+					{
+						title: '黑色平面口罩',
+						img: '../../static/images/kendeji.jpg',
+						type: '增拍',
+						signCount: 99
+					},
+					{
+						title: '黑色平面口罩',
+						img: '../../static/images/kendeji.jpg',
+						type: '增拍',
+						signCount: 99
+					},
+					{
+						title: '黑色平面口罩',
+						img: '../../static/images/kendeji.jpg',
+						type: '增拍',
+						signCount: 99
+					},
+					{
+						title: '黑色平面口罩',
+						img: '../../static/images/kendeji.jpg',
+						type: '增拍',
+						signCount: 99
+					}
+				],
+				categoryList: [
+					[
+						{img: '../../static/images/home/meishi.png', name: '美食券'},
+						{img: '../../static/images/home/yinliao.png', name: '饮品券'},
+						{img: '../../static/images/home/gouwu.png', name: '购物券'},
+						{img: '../../static/images/home/shipin.png', name: '视频券'},
+					],
+					[
+						{img: '../../static/images/home/dianying.png', name: '观影券'},
+						{img: '../../static/images/home/jiaotongchuhang.png', name: '出行券'},
+						{img: '../../static/images/home/ziyuan.png', name: '洗车券'},
+						{img: '../../static/images/home/shoujichongzhi.png', name: '我的订单'},
+					],
+				],
+				menuList: ['券类','电影购票','热门充值','热门活动','热门礼券'],
+				payList: [
+					{
+						'name': '美食饮品',
+						'catagory': '盒马先生、肯德基、麦当劳',
+						'description': '超低价充值'
+					},
+					{
+						'name': '商超购物',
+						'catagory': '沃尔玛、百果园、购物',
+						'description': '超低价充值'
+					},
+					{
+						'name': '生活出行',
+						'catagory': '美团、滴滴、高德',
+						'description': '超低价充值'
+					},
+					{
+						'name': '视频电影',
+						'catagory': '腾讯、爱奇艺、芒果TV',
+						'description': '超低价充值'
+					}
+				],
+				hotGoodsList: [
+					{
+						'name': '肯德基50元代金券',
+						'newPaper': 0.01,
+						'oldPaper': 38.00,
+						'image': '../../static/images/kendeji.jpg'
+					},
+					{
+						'name': '麦当劳100元代金券',
+						'newPaper': 0.01,
+						'oldPaper': 88.00,
+						'image': '../../static/images/maidanglao.jpeg'
+					}
+				],
+				cartList: [
+					{
+						'id': 1,
+						'name': '肯德基50元代金券',
+						'desc': '实体店消费抵扣',
+						'newPaper': 0.01,
+						'oldPaper': 38.00,
+						'image': '../../static/images/kendeji.jpg',
+						'hadSale': 230,
+						'onSale': 400,
+						'promise': '品质保证，售后无忧'
+					},
+					{
+						'id': 2,
+						'name': '肯德基50元代金券',
+						'desc': '实体店消费抵扣',
+						'newPaper': 0.01,
+						'oldPaper': 38.00,
+						'image': '../../static/images/maidanglao.jpeg',
+						'hadSale': 230,
+						'onSale': 400,
+						'promise': '品质保证，售后无忧'
+					},
+					{
+						'id': 3,
+						'name': '肯德基50元代金券',
+						'desc': '实体店消费抵扣',
+						'newPaper': 0.01,
+						'oldPaper': 38.00,
+						'image': '../../static/images/kendeji.jpg',
+						'hadSale': 230,
+						'onSale': 400,
+						'promise': '品质保证，售后无忧'
+					},
+					{
+						'id': 4,
+						'name': '肯德基50元代金券',
+						'desc': '实体店消费抵扣',
+						'newPaper': 0.01,
+						'oldPaper': 38.00,
+						'image': '../../static/images/maidanglao.jpeg',
+						'hadSale': 230,
+						'onSale': 400,
+						'promise': '品质保证，售后无忧'
+					}
+				],
 			}
 		},
 		onLoad() {
-			this.init()
+			// this.init()
 		},
 		methods: {
 			init() {
@@ -287,6 +343,16 @@
 	}
 </script>
 <style lang="scss">
+	.goodPictureImg {
+		width: 100%;
+		max-height: 300rpx;
+		position: absolute;
+		.smallPic {
+			position: relative;
+			bottom: 0;
+			right: 10;
+		}
+	}
 	.swiper-item {
 		width: 100%;
 

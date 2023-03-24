@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "任性购",
+  "navigationBarTitleText": "集美麻豆",
   "usingComponents": {
     "cata_-title": "/myComponents/catagory/cataTitle",
     "navigation-bar": "/myComponents/navBar/navigationBar"

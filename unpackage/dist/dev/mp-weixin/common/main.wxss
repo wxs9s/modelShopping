@@ -88,6 +88,21 @@
 	-webkit-flex: 1;
 	        flex: 1;
 }
+.flex2 {
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+}
+.flex3 {
+	-webkit-box-flex: 3;
+	-webkit-flex: 3;
+	        flex: 3;
+}
+.flex-center {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
 .flex-between {
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;

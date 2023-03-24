@@ -24,6 +24,16 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.goodPictureImg {
+  width: 100%;
+  max-height: 300rpx;
+  position: absolute;
+}
+.goodPictureImg .smallPic {
+  position: relative;
+  bottom: 0;
+  right: 10;
+}
 .swiper-item {
   width: 100%;
 }

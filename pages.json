@@ -3,7 +3,7 @@
 		{
 			"path": "pages/homes/home",
 			"style": {
-				"navigationBarTitleText": "任性购"
+				"navigationBarTitleText": "集美麻豆"
 			}
 		},
 		{
@@ -63,7 +63,7 @@
 		
 	],
 	"globalStyle": {
-		"navigationStyle":"custom",
+		"navigationStyle":"default",
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "任性购",
 		"navigationBarBackgroundColor": "#FFFDEF",
